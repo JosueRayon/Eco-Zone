@@ -15,7 +15,7 @@ C:/Users/ENDUSER12/Documents/GitHub/Eco-Zone/Eco Zone
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50283
+49344
 Successfully changed project path to: C:/Users/ENDUSER12/Documents/GitHub/Eco-Zone/Eco Zone
 C:/Users/ENDUSER12/Documents/GitHub/Eco-Zone/Eco Zone
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/ENDUSER12/Documents/GitHub/Eco-Zone/Eco Zone
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3440] Host "[IP] 10.10.80.224 [Port] 0 [Flags] 2 [Guid] 2672892039 [EditorId] 2672892039 [Version] 1048832 [Id] WindowsEditor(7,LAB2-001) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7692] Host "[IP] 10.10.80.201 [Port] 0 [Flags] 2 [Guid] 1329403913 [EditorId] 1329403913 [Version] 1048832 [Id] WindowsEditor(7,LAB2-001) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3440] Host "[IP] 10.10.80.224 [Port] 0 [Flags] 2 [Guid] 2672892039 [EditorId] 2672892039 [Version] 1048832 [Id] WindowsEditor(7,LAB2-001) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7692] Host "[IP] 10.10.80.201 [Port] 0 [Flags] 2 [Guid] 1329403913 [EditorId] 1329403913 [Version] 1048832 [Id] WindowsEditor(7,LAB2-001) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 720.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 519.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.035392 seconds.
-- Loaded All Assemblies, in  1.751 seconds
+Registered in 0.053726 seconds.
+- Loaded All Assemblies, in  3.148 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.830 seconds
-Domain Reload Profiling: 2578ms
-	BeginReloadAssembly (1082ms)
+- Finished resetting the current domain, in  1.225 seconds
+Domain Reload Profiling: 4376ms
+	BeginReloadAssembly (2245ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (82ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (170ms)
-	LoadAllAssembliesAndSetupDomain (377ms)
-		LoadAssemblies (1080ms)
+		CreateAndSetChildDomain (8ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (166ms)
+	LoadAllAssembliesAndSetupDomain (632ms)
+		LoadAssemblies (2268ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (367ms)
-			TypeCache.Refresh (364ms)
-				TypeCache.ScanAssembly (330ms)
+		AnalyzeDomain (592ms)
+			TypeCache.Refresh (587ms)
+				TypeCache.ScanAssembly (543ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (831ms)
+	FinalizeReload (1231ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (671ms)
+		SetupLoadedEditorAssemblies (980ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (20ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (23ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (417ms)
-			ProcessInitializeOnLoadMethodAttributes (210ms)
+			BeforeProcessingInitializeOnLoad (13ms)
+			ProcessInitializeOnLoadAttributes (780ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 2578ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.605 seconds
-Refreshing native plugins compatible for Editor in 6.27 ms, found 3 plugins.
+- Loaded All Assemblies, in  8.696 seconds
+Refreshing native plugins compatible for Editor in 4.48 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.065 seconds
-Domain Reload Profiling: 4665ms
-	BeginReloadAssembly (1342ms)
+- Finished resetting the current domain, in  1.054 seconds
+Domain Reload Profiling: 9747ms
+	BeginReloadAssembly (5588ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (2106ms)
-		LoadAssemblies (3008ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (139ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (2848ms)
+		LoadAssemblies (7958ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (319ms)
-			TypeCache.Refresh (285ms)
-				TypeCache.ScanAssembly (259ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
+		AnalyzeDomain (344ms)
+			TypeCache.Refresh (311ms)
+				TypeCache.ScanAssembly (282ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (1065ms)
+	FinalizeReload (1056ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (755ms)
+		SetupLoadedEditorAssemblies (778ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
+			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (565ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
-			AfterProcessingInitializeOnLoad (13ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (610ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
-Refreshing native plugins compatible for Editor in 7.94 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (19ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 5.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3546.
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3546.
 Memory consumption went from 114.2 MB to 114.2 MB.
-Total: 5.792100 ms (FindLiveObjects: 0.421200 ms CreateObjectMapping: 0.588800 ms MarkObjects: 4.282000 ms  DeleteObjects: 0.497300 ms)
+Total: 5.581100 ms (FindLiveObjects: 0.475000 ms CreateObjectMapping: 0.567000 ms MarkObjects: 4.374600 ms  DeleteObjects: 0.163400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -172,67 +172,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4329.068933 seconds.
-  path: Assets/JAMJ1111 (1).fbx
-  artifactKey: Guid(10a985f9ed2e3274d959a55e9de0fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JAMJ1111 (1).fbx using Guid(10a985f9ed2e3274d959a55e9de0fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edff0a290940addff700a996de9bd007') in 0.863217 seconds
+  Time since last request: 9944.889811 seconds.
+  path: Assets/Personajes@Walking.fbx
+  artifactKey: Guid(7ce6ebd4d5d281e4d8040496462d35c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes@Walking.fbx using Guid(7ce6ebd4d5d281e4d8040496462d35c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d140417b212403e4fbf75c06398304f') in 2.059799 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 83
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/JAMJ1111@Walking.fbx
-  artifactKey: Guid(f19023b57e8b5124a9bf114b9e0e9790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JAMJ1111@Walking.fbx using Guid(f19023b57e8b5124a9bf114b9e0e9790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b988bb3dcfb0bae0415d56c006e2d89') in 0.178763 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/Personajes@Breathing Idle.fbx
+  artifactKey: Guid(15b81e02596ab48499be7919e46a701a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes@Breathing Idle.fbx using Guid(15b81e02596ab48499be7919e46a701a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f255b35de6f005e1a75e9a37b2350799') in 0.173048 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 81
+Number of asset objects unloaded after import = 83
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/JAMJ1111@Happy Idle.fbx
-  artifactKey: Guid(f1024c3e1a64a7a4d881b9462c74d5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JAMJ1111@Happy Idle.fbx using Guid(f1024c3e1a64a7a4d881b9462c74d5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc651383fe5f894fdc3aaff896033ca4') in 0.114331 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Personajes@Jumping.fbx
+  artifactKey: Guid(c3c379bcbd06af4448ab630c5c273b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes@Jumping.fbx using Guid(c3c379bcbd06af4448ab630c5c273b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6338c12f0b8bbb654e4c1d954bf30a66') in 0.154977 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 81
+Number of asset objects unloaded after import = 83
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/JAMJ1111@Jump.fbx
-  artifactKey: Guid(e6308f9252ff9d2478ae77831f9dbea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JAMJ1111@Jump.fbx using Guid(e6308f9252ff9d2478ae77831f9dbea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccce0e9faf559356f3d4651cf85b4c9b') in 0.122792 seconds
+  Time since last request: 0.000069 seconds.
+  path: Assets/Personajes.fbx
+  artifactKey: Guid(b29516a345483d44189639924a51024b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes.fbx using Guid(b29516a345483d44189639924a51024b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2f264509b453f6b277049dc3d12065') in 0.156886 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 81
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/JAMJ1111@Happy Idle (1).fbx
-  artifactKey: Guid(58202667aaa56ec4ca1acadd3967a3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JAMJ1111@Happy Idle (1).fbx using Guid(58202667aaa56ec4ca1acadd3967a3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f0ab4327d2d971b79abccce4275391') in 0.119632 seconds
+  Time since last request: 0.000059 seconds.
+  path: Assets/Personajes@Standing Idle To Fight Idle.fbx
+  artifactKey: Guid(f21480ad599f9504baa09ef9812e20d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes@Standing Idle To Fight Idle.fbx using Guid(f21480ad599f9504baa09ef9812e20d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b5b1151366081b334909f341a68c91') in 0.158224 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 81
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/ninjacorregido (1) (1) (1).fbx
-  artifactKey: Guid(0415d4293da63314890a9b5bf76c8b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ninjacorregido (1) (1) (1).fbx using Guid(0415d4293da63314890a9b5bf76c8b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245bb2273314aeb0e20debe7c86c3884') in 0.136307 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
+Number of asset objects unloaded after import = 83
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 4.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3592.
 Memory consumption went from 72.0 MB to 72.0 MB.
-Total: 50.851400 ms (FindLiveObjects: 0.336200 ms CreateObjectMapping: 0.251200 ms MarkObjects: 50.232300 ms  DeleteObjects: 0.030500 ms)
+Total: 23.143800 ms (FindLiveObjects: 0.257300 ms CreateObjectMapping: 0.217800 ms MarkObjects: 22.628600 ms  DeleteObjects: 0.038800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -250,41 +241,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 62.017523 seconds.
-  path: Assets/Personajes.fbx
-  artifactKey: Guid(b29516a345483d44189639924a51024b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes.fbx using Guid(b29516a345483d44189639924a51024b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97deb9527163c505ebf05570ffad932a') in 0.169567 seconds
+  Time since last request: 28.602136 seconds.
+  path: Assets/hola.fbx
+  artifactKey: Guid(ef6a29e782b08274da3b5b402903a3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hola.fbx using Guid(ef6a29e782b08274da3b5b402903a3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b423f96d69dc7a626e328eb34fa81c') in 0.125084 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Personajes@Walking.fbx
-  artifactKey: Guid(7ce6ebd4d5d281e4d8040496462d35c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes@Walking.fbx using Guid(7ce6ebd4d5d281e4d8040496462d35c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74037eeaf4b365e064415e7f2e4d362d') in 0.179394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Personajes@Breathing Idle.fbx
-  artifactKey: Guid(15b81e02596ab48499be7919e46a701a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes@Breathing Idle.fbx using Guid(15b81e02596ab48499be7919e46a701a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f834fcb8ea024d3dcdb55ae31ca8c9b2') in 0.157772 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Personajes@Jumping.fbx
-  artifactKey: Guid(c3c379bcbd06af4448ab630c5c273b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes@Jumping.fbx using Guid(c3c379bcbd06af4448ab630c5c273b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06dad43ef607df4052c1e7fae837faa') in 0.162233 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 83
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Personajes@Standing Idle To Fight Idle.fbx
-  artifactKey: Guid(f21480ad599f9504baa09ef9812e20d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes@Standing Idle To Fight Idle.fbx using Guid(f21480ad599f9504baa09ef9812e20d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034b68c47e42a69c1447488c1bc6c596') in 0.161526 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 83
+Number of asset objects unloaded after import = 21
