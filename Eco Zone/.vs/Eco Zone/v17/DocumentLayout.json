@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ENDUSER12\\Documents\\GitHub\\Eco-Zone\\Eco Zone\\",
+  "WorkspaceRootPath": "D:\\Eco-Zone\\Eco Zone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4384113-C37E-C843-0BD2-B19938463C62}|Assembly-CSharp.csproj|c:\\users\\enduser12\\documents\\github\\eco-zone\\eco zone\\assets\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4384113-C37E-C843-0BD2-B19938463C62}|Assembly-CSharp.csproj|solutionrelative:assets\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4384113-C37E-C843-0BD2-B19938463C62}|Assembly-CSharp.csproj|d:\\eco-zone\\eco zone\\assets\\scripts\\time_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4384113-C37E-C843-0BD2-B19938463C62}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\time_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4384113-C37E-C843-0BD2-B19938463C62}|Assembly-CSharp.csproj|C:\\Users\\ENDUSER12\\Documents\\GitHub\\Eco-Zone\\Eco Zone\\assets\\jsys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4384113-C37E-C843-0BD2-B19938463C62}|Assembly-CSharp.csproj|solutionrelative:assets\\jsys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4384113-C37E-C843-0BD2-B19938463C62}|Assembly-CSharp.csproj|D:\\Eco-Zone\\Eco Zone\\assets\\scripts\\scp_trashcolection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4384113-C37E-C843-0BD2-B19938463C62}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scp_trashcolection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4384113-C37E-C843-0BD2-B19938463C62}|Assembly-CSharp.csproj|D:\\Eco-Zone\\Eco Zone\\assets\\scripts\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4384113-C37E-C843-0BD2-B19938463C62}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4384113-C37E-C843-0BD2-B19938463C62}|Assembly-CSharp.csproj|D:\\Eco-Zone\\Eco Zone\\assets\\scripts\\scenechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4384113-C37E-C843-0BD2-B19938463C62}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenechange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4384113-C37E-C843-0BD2-B19938463C62}|Assembly-CSharp.csproj|d:\\eco-zone\\eco zone\\assets\\scripts\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4384113-C37E-C843-0BD2-B19938463C62}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "player_movement.cs",
-              "DocumentMoniker": "C:\\Users\\ENDUSER12\\Documents\\GitHub\\Eco-Zone\\Eco Zone\\Assets\\player_movement.cs",
-              "RelativeDocumentMoniker": "Assets\\player_movement.cs",
-              "ToolTip": "C:\\Users\\ENDUSER12\\Documents\\GitHub\\Eco-Zone\\Eco Zone\\Assets\\player_movement.cs",
-              "RelativeToolTip": "Assets\\player_movement.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwCkAAAAoAAAA",
+              "Title": "Time_controller.cs",
+              "DocumentMoniker": "D:\\Eco-Zone\\Eco Zone\\Assets\\Scripts\\Time_controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Time_controller.cs",
+              "ToolTip": "D:\\Eco-Zone\\Eco Zone\\Assets\\Scripts\\Time_controller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Time_controller.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T22:23:29.222Z",
+              "WhenOpened": "2024-06-18T19:11:51.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EXIT.cs",
+              "DocumentMoniker": "D:\\Eco-Zone\\Eco Zone\\Assets\\Scripts\\EXIT.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EXIT.cs",
+              "ToolTip": "D:\\Eco-Zone\\Eco Zone\\Assets\\Scripts\\EXIT.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EXIT.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T19:07:07.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SceneChange.cs",
+              "DocumentMoniker": "D:\\Eco-Zone\\Eco Zone\\Assets\\Scripts\\SceneChange.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneChange.cs",
+              "ToolTip": "D:\\Eco-Zone\\Eco Zone\\Assets\\Scripts\\SceneChange.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneChange.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T19:07:04.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "player_movement.cs",
+              "DocumentMoniker": "D:\\Eco-Zone\\Eco Zone\\Assets\\Scripts\\player_movement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\player_movement.cs",
+              "ToolTip": "D:\\Eco-Zone\\Eco Zone\\Assets\\Scripts\\player_movement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\player_movement.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T17:49:37.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "jsys.cs",
-              "DocumentMoniker": "C:\\Users\\ENDUSER12\\Documents\\GitHub\\Eco-Zone\\Eco Zone\\Assets\\jsys.cs",
-              "RelativeDocumentMoniker": "Assets\\jsys.cs",
-              "ToolTip": "C:\\Users\\ENDUSER12\\Documents\\GitHub\\Eco-Zone\\Eco Zone\\Assets\\jsys.cs",
-              "RelativeToolTip": "Assets\\jsys.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
+              "Title": "Scp_TrashColection.cs",
+              "DocumentMoniker": "D:\\Eco-Zone\\Eco Zone\\Assets\\Scripts\\Scp_TrashColection.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scp_TrashColection.cs",
+              "ToolTip": "D:\\Eco-Zone\\Eco Zone\\Assets\\Scripts\\Scp_TrashColection.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scp_TrashColection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T22:11:08.691Z"
+              "WhenOpened": "2024-06-18T15:12:03.605Z",
+              "EditorCaption": ""
             }
           ]
         }
